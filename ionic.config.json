@@ -1,0 +1,7 @@
+{
+  "name": "instabook",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
