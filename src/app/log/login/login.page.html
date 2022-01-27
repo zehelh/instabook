@@ -1,0 +1,26 @@
+<ion-content [fullscreen]="true">
+
+  <ion-searchbar placeholder="Rechercher sur instabook"></ion-searchbar>
+
+  <section class="container">
+
+    <ion-card>
+      <ion-card-content>
+        <ion-item color="light">
+          <ion-label position="stacked">Email</ion-label>
+          <ion-input placeholder="Votre email" type="email"></ion-input>
+        </ion-item>
+
+        <ion-item color="light">
+          <ion-label position="stacked">Mot de passe</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+
+      </ion-card-content>
+      <ion-text color="primary" class="pointer" [routerLink]="['/signin']"><p>Pas encore incrit ? Cliquez ici</p></ion-text>
+      <ion-button shape="round" expand="full" color="primary"  [routerLink]="['/feeds']">Connexion</ion-button>
+    </ion-card>
+
+  </section>
+
+</ion-content>

@@ -11,12 +11,28 @@ const routes: Routes = [
     loadChildren: () => import('./feeds/details/details.module').then( m => m.DetailsPageModule)
   },
   {
+    path: 'feeds/create',
+    loadChildren: () => import('./feeds/create/create.module').then( m => m.CreatePageModule)
+  },
+  {
     path: 'profil',
-    loadChildren: () => import('./profil/profil.module').then(m => m.ProfilPageModule)
+    loadChildren: () => import('./profil/profil/profil.module').then(m => m.ProfilPageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./log/login/login.module').then(m => m.LoginPageModule)
+  },
+  {
+    path: 'signin',
+    loadChildren: () => import('./log/signin/signin.module').then(m => m.SigninPageModule)
+  },
+  {
+    path: 'search',
+    loadChildren: () => import('./profil/search/search.module').then(m => m.SearchPageModule)
   },
   {
     path: '',
-    redirectTo: 'feeds',
+    redirectTo: 'login',
     pathMatch: 'full'
   }
 ];

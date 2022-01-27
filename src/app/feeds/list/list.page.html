@@ -4,10 +4,12 @@
 
   <section class="container">
 
+    <ion-button shape="round" expand="full" [routerLink]="['/feeds/create']">Nouvelle publication</ion-button>
+
     <!-- BOUCLE SUR LE FEED -->
     <ion-card>
       <ion-card-header>
-        <ion-card-title color="dark" class="pointer" [routerLink]="['feeds/details']"><h2>Exemple de post</h2></ion-card-title>
+        <ion-card-title color="dark" class="pointer" [routerLink]="['/feeds/details']"><h2>Exemple de post</h2></ion-card-title>
       </ion-card-header>
 
       <ion-card-content>
@@ -15,15 +17,18 @@
           and climb a mountain or spend a week in the woods. Wash your spirit clean.</p></ion-text>
         <img src="https://img4k.com/wp-content/uploads/2021/09/Japan-Nature-Wallpaper-4K-20000.jpg" alt="img">
         <ion-list>
+        <ion-button color="light">
+          <ion-icon name="heart-outline"></ion-icon>
+        </ion-button>
           <ion-text color="dark"><p>17 Commentaires</p></ion-text>
-          <ion-text color="primary" class="pointer" [routerLink]="['feeds/details']"><p>Voir tout les commentaires</p></ion-text>
+          <ion-text color="primary" class="pointer" [routerLink]="['/feeds/details']"><p>Voir tout les commentaires</p></ion-text>
         </ion-list>
       </ion-card-content>
     </ion-card>
 
     <ion-card>
       <ion-card-header>
-        <ion-card-title color="dark" class="pointer" [routerLink]="['feeds/details']"><h2>Exemple de post</h2></ion-card-title>
+        <ion-card-title color="dark" class="pointer" [routerLink]="['/feeds/details']"><h2>Exemple de post</h2></ion-card-title>
       </ion-card-header>
 
       <ion-card-content>
@@ -31,14 +36,17 @@
           and climb a mountain or spend a week in the woods. Wash your spirit clean.</p></ion-text>
         <img src="https://img4k.com/wp-content/uploads/2021/09/Japan-Nature-Wallpaper-4K-20000.jpg" alt="img">
         <ion-list>
+        <ion-button color="light">
+          <ion-icon name="heart-outline"></ion-icon>
+        </ion-button>
           <ion-text color="dark"><p>17 Commentaires</p></ion-text>
-          <ion-text color="primary" class="pointer" [routerLink]="['feeds/details']"><p>Voir tout les commentaires</p></ion-text>
+          <ion-text color="primary" class="pointer" [routerLink]="['/feeds/details']"><p>Voir tout les commentaires</p></ion-text>
         </ion-list>
       </ion-card-content>
     </ion-card>
     <ion-card>
       <ion-card-header>
-        <ion-card-title color="dark" class="pointer" [routerLink]="['feeds/details']"><h2>Exemple de post</h2></ion-card-title>
+        <ion-card-title color="dark" class="pointer" [routerLink]="['/feeds/details']"><h2>Exemple de post</h2></ion-card-title>
       </ion-card-header>
 
       <ion-card-content>
@@ -46,8 +54,11 @@
           and climb a mountain or spend a week in the woods. Wash your spirit clean.</p></ion-text>
         <img src="https://img4k.com/wp-content/uploads/2021/09/Japan-Nature-Wallpaper-4K-20000.jpg" alt="img">
         <ion-list>
+        <ion-button color="light">
+          <ion-icon name="heart-outline"></ion-icon>
+        </ion-button>
           <ion-text color="dark"><p>17 Commentaires</p></ion-text>
-          <ion-text color="primary" class="pointer" [routerLink]="['feeds/details']"><p>Voir tout les commentaires</p></ion-text>
+          <ion-text color="primary" class="pointer" [routerLink]="['/feeds/details']"><p>Voir tout les commentaires</p></ion-text>
         </ion-list>
       </ion-card-content>
     </ion-card>
